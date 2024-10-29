@@ -1,5 +1,6 @@
 import math
 import unittest
+from autograd import Value
 
 class TestMicrograd(unittest.TestCase):
     def test_simple_addition(self):
